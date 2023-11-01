@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.backdrop{
+    position: relative;
+    width: 100%;
+}
+.backdrop-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(5px);
+}
+.movie-dets{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+.poster-img{
+    width: 300px;
+    border-radius: 10px;
+}   
+.dets{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%)
+}
+.dets h1{
+    font-weight: 800;
+}
+.dets .btn{
+    font-weight: 500;
+    font-size: 20px;
+}
+.movie-overview{
+    font-size: 20px;
+}
